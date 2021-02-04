@@ -63,4 +63,5 @@
     <string name="operation_finished">Operation Finished!!</string>
     <string name="seeta_detect">Seeta Detect</string>
     <string name="seeta_points">Seeta Points</string>
+    <string name="pic_motion">图片局部流动</string>
 </resources>

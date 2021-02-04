@@ -65,5 +65,9 @@
             android:name=".activity.VideoResultActivity"
             android:label="@string/result_video"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MorphMotionActivity"
+            android:label="@string/pic_motion"
+            android:screenOrientation="portrait" />
     </application>
 </manifest>

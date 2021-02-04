@@ -94,5 +94,21 @@
                 android:theme="@style/AppTheme.IconButton" />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_morph_motion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_about"
+                android:text="@string/pic_motion"
+                android:theme="@style/AppTheme.IconButton" />
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

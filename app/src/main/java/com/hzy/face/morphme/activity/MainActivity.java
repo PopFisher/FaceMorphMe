@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_settings,
             R.id.btn_about,
             R.id.btn_source_code,
+            R.id.btn_morph_motion,
             R.id.btn_video_export})
     public void onViewClicked(View view) {
         switch (view.getId()) {
@@ -49,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_source_code:
                 WebViewActivity.startUrl(getString(R.string.github_project_page));
+                break;
+            case R.id.btn_morph_motion:
+                ARouter.getInstance().build(RouterHub.MORPH_MOTION_ACTIVITY).navigation();
                 break;
         }
     }
